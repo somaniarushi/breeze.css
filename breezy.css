@@ -135,6 +135,29 @@
     color: #111;
 }
 
+.brz-textinput {
+    background-color: rgba(240, 240, 240, 0.219);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    width: 30%;
+    padding: 8px 20px;
+    padding-left: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgba(17, 17, 17, 0.418);
+    border-radius: 3px;
+}
+
+.brz-submit {
+    background-color: rgba(196, 196, 196, 0.418);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    padding: 0.5em;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 5px;
+}
+
 /* Styling for inline blocks */
 .brz-ib {
     display: inline-block;
@@ -181,6 +204,7 @@
     }
 }
 
+/* Wrapper for everything */
 .brz-condense {
     padding: 0 8em;
     padding-top: 2rem;
