@@ -1,0 +1,123 @@
+
+/* Styling for headings */
+.brz-h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1;
+    letter-spacing: -.03em;
+    margin: 1rem;
+    padding: 0.5rem;
+    box-sizing: inherit;
+}
+
+.brz-blue {
+    color: rgba(0, 162, 255, 0.801);
+}
+
+.brz-h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1;
+    letter-spacing: -.03em;
+    margin: 1rem;
+    padding: 0.5rem;
+    box-sizing: inherit;
+}
+
+.brz-h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1;
+    letter-spacing: -.03em;
+    margin: 1rem;
+    padding: 0.5rem;
+    box-sizing: inherit;
+}
+
+/* Styling for paragraphs */
+.brz-p {
+    line-height: 1.5rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    box-sizing: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Styling for hyperlinks */
+.brz-a {
+    font-weight: 400;
+    text-decoration: none;
+    padding-top: 0.5rem;
+    margin: 1rem;
+    margin-left: 1.5rem;
+    border-bottom: 2px solid rgba(182, 140, 221, 0.582);
+    color: rgba(93, 10, 161, 0.767);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+    .brz-a:hover {
+        border-bottom: 2px solid rgba(101, 137, 158, 0.582);
+        color: rgba(9, 73, 110, 0.767);
+    }
+
+    .brz-a:visited {
+        border-bottom: 2px solid rgba(126, 101, 158, 0.582);
+        color: rgba(61, 9, 110, 0.767);
+    }
+
+/* Styling for blockquotes */
+.brz-bq {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #636161;
+    border-left: 4px solid #292929;
+    margin: 1.5rem;
+    padding-left: 10px;
+    font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif;
+    line-height: 1.5rem;
+    font-style: italic;
+}
+
+/* Styling for code components */
+.brz-code {
+    font-size: 85%;
+    font-family: "SFMono-Regular", Consolas, Menlo, monospace;
+    padding: .2em .4em;
+    margin: 1.5rem;
+    background-color: rgba(15, 199, 61, 0.144);
+    border-radius: 3px;
+    box-sizing: inherit;
+}
+
+/* Styling for pre components */
+.brz-pre {
+    line-height: 1.45;
+    margin: 1.5rem;
+    margin-right: 5rem;
+    padding: 16px;
+    background-color: #eaf0f7bb;
+    border-radius: 3px;
+    font-size: 85%;
+    font-family: "SFMono-Regular", Consolas, Menlo, monospace;
+}
+
+/* Styling for inline blocks */
+.brz-ib {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1000px){
+    .brz-h1 {
+        font-size: 5rem;
+    }
+
+    .brz-h2 {
+        font-size: 3rem;
+    }
+
+    .brz-h3 {
+        font-size: 2rem;
+    }
+    .brz-pre {
+        font-size: 2rem;
+    }
+}
